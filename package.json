@@ -4,7 +4,7 @@
   "description": "等离子体宇宙学与新以太理论",
   "main": "index.js",
   "scripts": {
-    "deplay": "git subtree push --prefix=_book origin gh-pages"
+    "deplay": "gitbook build && gh-pages -d _book"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Hermesfuxi/PlasmaUniverse/issues"
   },
-  "homepage": "https://github.com/Hermesfuxi/PlasmaUniverse#readme"
+  "homepage": "https://github.com/Hermesfuxi/PlasmaUniverse#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
