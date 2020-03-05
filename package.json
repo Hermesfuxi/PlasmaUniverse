@@ -1,0 +1,20 @@
+{
+  "name": "PlasmaUniverse",
+  "version": "1.0.0",
+  "description": "等离子体宇宙学与新以太理论",
+  "main": "index.js",
+  "scripts": {
+    "deplay": "git subtree push --prefix=_book origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hermesfuxi/PlasmaUniverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hermesfuxi/PlasmaUniverse/issues"
+  },
+  "homepage": "https://github.com/Hermesfuxi/PlasmaUniverse#readme"
+}
