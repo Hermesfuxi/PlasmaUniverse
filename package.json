@@ -1,10 +1,10 @@
 {
-  "name": "PlasmaUniverse",
+  "name": "lasmaUniverse",
   "version": "1.0.0",
   "description": "等离子体宇宙学与新以太理论",
   "main": "index.js",
   "scripts": {
-    "deplay": "gitbook build && gh-pages -d _book"
+    "deploy": "gitbook build && gh-pages -d _book"
   },
   "repository": {
     "type": "git",
